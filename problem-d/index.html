@@ -7,22 +7,30 @@
     <!-- normalize.css for cross-browser stuff -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#">Informatics</a></li>
-            <li><a href="#courses">Courses</a></li>
-            <li><a href="#admissions">Admissions</a></li>
-            <li><a href="#faculty">Faculty</a></li>
-        </ul>
-        <div class="searchBox" role="search">
-            <input type="text" placeholder="Search...">
-            <button>Search</button>
-        </div>
-    </nav>
+    <div>
+        <a class="skip-links" href="#main">Skip to Content</a>
+        <nav>
+            <ul>
+                <li><a href="#"><span class="logo"> </span>Informatics</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+            </ul>
+            <div class="searchBox" role="search">
+                <input type="text" placeholder="Search...">
+                <button>
+                    <i class="fas fa-search fa-flip-horizontal" aria-label="search"></i>
+                </button>
+            </div>
+        </nav>
+    </div>
 
-    <main>
+    <main id="main">
         <h1>WHAT IS INFORMATICS?</h1>
 
         <p>The term "informatics" broadly describes the study and practice of creating, storing, finding, manipulating and sharing information. When the iSchool chose "informatics" as the name of its 
